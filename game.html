@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minesweeper-Game</title>
   <link rel="stylesheet" href="styles-game.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css"> <!-- Estilos para terminal -->
 </head>
 <body>
   <!-- Navbar -->
@@ -17,12 +16,12 @@
     </div>
   </header>
 
-  <!-- Terminal container -->
-  <main class="terminal-container">
-    <div id="terminal"></div>
+  <!-- Video container -->
+  <main class="video-container">
+    <video id="game-video" controls>
+      <source src="minesweeper vid.mp4" type="video/mp4">
+    </video>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script> <!-- Library for terminal -->
-  <script src="script-game.js"></script>
 </body>
 </html>
